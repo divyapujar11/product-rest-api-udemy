@@ -1,14 +1,14 @@
-2022-12-02T12:03:46.114+05:30  INFO 12680 --- [main] c.c.s.p.ProductRestApiApplication        : Starting ProductRestApiApplication using Java 17.0.1 with PID 12680 (C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api\target\classes started by dcpujar in C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api)
-2022-12-02T12:03:46.120+05:30  INFO 12680 --- [main] c.c.s.p.ProductRestApiApplication        : No active profile set, falling back to 1 default profile: "default"
-2022-12-02T12:03:46.763+05:30  INFO 12680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-02T12:03:46.809+05:30  INFO 12680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
-2022-12-02T12:03:47.221+05:30  INFO 12680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-12-02T12:03:47.231+05:30  INFO 12680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-12-02T12:03:47.231+05:30  INFO 12680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
-2022-12-02T12:03:47.302+05:30  INFO 12680 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2022-12-02T12:03:47.303+05:30  INFO 12680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
-2022-12-02T12:03:47.480+05:30  INFO 12680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-12-02T12:03:48.558+05:30 ERROR 12680 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2023-02-07T17:35:38.134+05:30  INFO 5068 --- [main] c.c.s.p.ProductRestApiApplication        : Starting ProductRestApiApplication using Java 17.0.1 with PID 5068 (C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api\target\classes started by dcpujar in C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api)
+2023-02-07T17:35:38.143+05:30  INFO 5068 --- [main] c.c.s.p.ProductRestApiApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-02-07T17:35:39.190+05:30  INFO 5068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07T17:35:39.273+05:30  INFO 5068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-02-07T17:35:39.918+05:30  INFO 5068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-07T17:35:39.931+05:30  INFO 5068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-07T17:35:39.931+05:30  INFO 5068 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-02-07T17:35:40.040+05:30  INFO 5068 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2023-02-07T17:35:40.041+05:30  INFO 5068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1853 ms
+2023-02-07T17:35:40.314+05:30  INFO 5068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-07T17:35:41.430+05:30 ERROR 5068 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -92,11 +92,11 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
 	... 51 common frames omitted
 
-2022-12-02T12:03:48.597+05:30  INFO 12680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-02T12:03:48.647+05:30  INFO 12680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
-2022-12-02T12:03:48.808+05:30  WARN 12680 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2022-12-02T12:03:48.910+05:30  INFO 12680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-12-02T12:03:49.941+05:30 ERROR 12680 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2023-02-07T17:35:41.489+05:30  INFO 5068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07T17:35:41.587+05:30  INFO 5068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-02-07T17:35:41.811+05:30  WARN 5068 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-07T17:35:41.962+05:30  INFO 5068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-07T17:35:42.979+05:30 ERROR 5068 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -179,7 +179,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
 	... 50 common frames omitted
 
-2022-12-02T12:03:49.944+05:30  WARN 12680 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2023-02-07T17:35:42.980+05:30  WARN 5068 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -262,13 +262,13 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63) ~[mysql-connector-j-8.0.31.jar:8.0.31]
 	... 50 common frames omitted
 
-2022-12-02T12:03:49.963+05:30 ERROR 12680 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2022-12-02T12:03:49.964+05:30  WARN 12680 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2022-12-02T12:03:49.966+05:30  INFO 12680 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-12-02T12:03:49.978+05:30  INFO 12680 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2023-02-07T17:35:42.987+05:30 ERROR 5068 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-02-07T17:35:42.989+05:30  WARN 5068 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-02-07T17:35:42.993+05:30  INFO 5068 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-07T17:35:43.012+05:30  INFO 5068 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2022-12-02T12:03:49.993+05:30 ERROR 12680 --- [main] o.s.boot.SpringApplication               : Application run failed
+2023-02-07T17:35:43.034+05:30 ERROR 5068 --- [main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751) ~[spring-beans-6.0.2.jar:6.0.2]
@@ -315,73 +315,3 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
 	... 31 common frames omitted
 
-2022-12-02T12:07:01.779+05:30  INFO 15508 --- [main] c.c.s.p.ProductRestApiApplication        : Starting ProductRestApiApplication using Java 17.0.1 with PID 15508 (C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api\target\classes started by dcpujar in C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api)
-2022-12-02T12:07:01.781+05:30  INFO 15508 --- [main] c.c.s.p.ProductRestApiApplication        : No active profile set, falling back to 1 default profile: "default"
-2022-12-02T12:07:02.381+05:30  INFO 15508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-02T12:07:02.416+05:30  INFO 15508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-2022-12-02T12:07:02.761+05:30  INFO 15508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-12-02T12:07:02.768+05:30  INFO 15508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-12-02T12:07:02.768+05:30  INFO 15508 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
-2022-12-02T12:07:02.834+05:30  INFO 15508 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2022-12-02T12:07:02.834+05:30  INFO 15508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
-2022-12-02T12:07:03.003+05:30  INFO 15508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-12-02T12:07:03.246+05:30  INFO 15508 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@472c9f88
-2022-12-02T12:07:03.248+05:30  INFO 15508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-12-02T12:07:03.275+05:30  INFO 15508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-02T12:07:03.304+05:30  INFO 15508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
-2022-12-02T12:07:03.413+05:30  WARN 15508 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2022-12-02T12:07:03.557+05:30  INFO 15508 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2022-12-02T12:07:04.047+05:30  INFO 15508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-02T12:07:04.055+05:30  INFO 15508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-02T12:07:04.249+05:30  WARN 15508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-02T12:07:04.605+05:30  WARN 15508 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: c238764c-e66b-42ae-ab8e-e7dc904634f2
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2022-12-02T12:07:04.675+05:30  INFO 15508 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-12-02T12:07:04.689+05:30  INFO 15508 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63e4bbf9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@455cb6d9, org.springframework.security.web.context.SecurityContextHolderFilter@162a5c4c, org.springframework.security.web.header.HeaderWriterFilter@235d46b2, org.springframework.web.filter.CorsFilter@6d7a343f, org.springframework.security.web.csrf.CsrfFilter@7842260f, org.springframework.security.web.authentication.logout.LogoutFilter@5a3d52a0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d5eca06, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@48543f11, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5d2bfc9f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2a49753, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f9e6a85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7641c4e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bd6bfb0, org.springframework.security.web.access.ExceptionTranslationFilter@4c7b4a31, org.springframework.security.web.access.intercept.AuthorizationFilter@1e86b2d1]
-2022-12-02T12:07:04.778+05:30  INFO 15508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productapi'
-2022-12-02T12:07:04.789+05:30  INFO 15508 --- [main] c.c.s.p.ProductRestApiApplication        : Started ProductRestApiApplication in 3.363 seconds (process running for 3.996)
-2022-12-02T12:07:53.524+05:30  INFO 15508 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-02T12:07:53.524+05:30  INFO 15508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-12-02T12:07:53.526+05:30  INFO 15508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-12-02T12:15:37.222+05:30  INFO 15508 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-12-02T12:15:37.234+05:30  INFO 15508 --- [RMI TCP Connection(18)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-12-02T12:15:37.235+05:30  INFO 15508 --- [RMI TCP Connection(18)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-12-02T12:15:37.242+05:30  INFO 15508 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-12-02T12:15:37.244+05:30  INFO 15508 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-12-02T12:15:37.250+05:30  INFO 15508 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-12-02T12:26:43.867+05:30  INFO 7724 --- [main] c.c.s.p.ProductRestApiApplication        : Starting ProductRestApiApplication using Java 17.0.1 with PID 7724 (C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api\target\classes started by dcpujar in C:\Users\dcpujar\Documents\revision-folder\Java_Core_nov\SpringBoot_Udemy\product-rest-api)
-2022-12-02T12:26:43.869+05:30  INFO 7724 --- [main] c.c.s.p.ProductRestApiApplication        : No active profile set, falling back to 1 default profile: "default"
-2022-12-02T12:26:44.422+05:30  INFO 7724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-02T12:26:44.457+05:30  INFO 7724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-2022-12-02T12:26:44.856+05:30  INFO 7724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-12-02T12:26:44.862+05:30  INFO 7724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-12-02T12:26:44.863+05:30  INFO 7724 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
-2022-12-02T12:26:44.926+05:30  INFO 7724 --- [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2022-12-02T12:26:44.927+05:30  INFO 7724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
-2022-12-02T12:26:45.082+05:30  INFO 7724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-12-02T12:26:45.303+05:30  INFO 7724 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1552da16
-2022-12-02T12:26:45.305+05:30  INFO 7724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-12-02T12:26:45.334+05:30  INFO 7724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-02T12:26:45.366+05:30  INFO 7724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
-2022-12-02T12:26:45.491+05:30  WARN 7724 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2022-12-02T12:26:45.635+05:30  INFO 7724 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2022-12-02T12:26:46.078+05:30  INFO 7724 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-02T12:26:46.084+05:30  INFO 7724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-02T12:26:46.260+05:30  WARN 7724 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-02T12:26:46.702+05:30  INFO 7724 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2022-12-02T12:26:46.716+05:30  INFO 7724 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7fb313e3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@771ede0d, org.springframework.security.web.context.SecurityContextHolderFilter@3a75d9a1, org.springframework.security.web.header.HeaderWriterFilter@1db9d253, org.springframework.web.filter.CorsFilter@1fd73dcb, org.springframework.security.web.csrf.CsrfFilter@195d4780, org.springframework.security.web.authentication.logout.LogoutFilter@2e17a9e6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c989d82, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e00723b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@54c697c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@78de0f6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a085d02, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44ec6637, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62075e3d, org.springframework.security.web.access.ExceptionTranslationFilter@f3c27e9, org.springframework.security.web.access.intercept.AuthorizationFilter@397b5b2d]
-2022-12-02T12:26:46.810+05:30  INFO 7724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/productapi'
-2022-12-02T12:26:46.823+05:30  INFO 7724 --- [main] c.c.s.p.ProductRestApiApplication        : Started ProductRestApiApplication in 3.267 seconds (process running for 3.84)
-2022-12-02T12:27:06.225+05:30  INFO 7724 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-02T12:27:06.225+05:30  INFO 7724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-12-02T12:27:06.227+05:30  INFO 7724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2022-12-02T12:28:04.733+05:30  INFO 7724 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-12-02T12:28:04.750+05:30  INFO 7724 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-12-02T12:28:04.750+05:30  INFO 7724 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-12-02T12:28:04.763+05:30  INFO 7724 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-12-02T12:28:04.765+05:30  INFO 7724 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-12-02T12:28:04.772+05:30  INFO 7724 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
